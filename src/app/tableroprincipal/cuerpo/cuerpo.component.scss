@@ -1,0 +1,42 @@
+@use '../../app.component.scss';
+
+body {
+  font-family: var(--font-main);
+ }
+
+ .container {
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1144px;
+  padding: 10px 0;
+ }
+
+ .img {
+  padding: 2% 5%;
+  width: 60%;
+ }
+ h1{
+  color: rgb(56, 23, 88);
+  text-align: center;
+}
+
+.contenedorfoto {
+  float:left;
+  margin: 10px;
+  padding:5px;
+}
+
+#principal {
+  margin:0 auto;
+}
+
+.boton {
+  border: 0;
+  margin-top: 25px;
+  background-color: var(--Soft-red);
+  height: 40px;
+  width: 200px;
+  margin: 0 8px 16px;
+  font-family: 'Poppings', 'sans-serif';
+}
+
