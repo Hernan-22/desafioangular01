@@ -1,0 +1,21 @@
+@use '../../app.component.scss';
+
+.contenedorfoto {
+  float:left;
+  margin: 5px;
+  padding:3px;
+}
+
+.principal {
+  margin:0 auto;
+}
+
+#texto{
+  display: inline-block;
+  vertical-align: top;
+  color: rgb(56, 23, 88);
+}
+
+.footer {
+  height: 150px;
+}

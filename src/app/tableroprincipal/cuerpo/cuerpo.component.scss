@@ -2,32 +2,40 @@
 
 body {
   font-family: var(--font-main);
+  height: 400px;
+  width: 820px;
  }
 
  .container {
   overflow: hidden;
   margin: 0 auto;
-  max-width: 1144px;
+  max-width: 1500px;
+  height: 400px;
+  width: 750px;
   padding: 10px 0;
  }
 
  .img {
   padding: 2% 5%;
-  width: 60%;
+  max-width: 655px;
+  height: 500px;
  }
+
+ .columna1 {
+  width: 20%;
+  float: left;
+  margin-left: 75px;
+ }
+
+ .colum2 {
+  width: 45%;
+  float: left;
+  margin-left: 180px;
+ }
+
  h1{
   color: rgb(56, 23, 88);
   text-align: center;
-}
-
-.contenedorfoto {
-  float:left;
-  margin: 5px;
-  padding:3px;
-}
-
-.principal {
-  margin:0 auto;
 }
 
 .boton {
@@ -40,10 +48,4 @@ body {
   font-family: 'Poppings', 'sans-serif';
 }
 
-#texto{
-  display: inline-block;
-  vertical-align: top;
-  color: rgb(56, 23, 88);
-
-}
 
