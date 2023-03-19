@@ -1,51 +1,104 @@
-@use '../../app.component.scss';
+@use "../../app.component.scss";
 
-body {
-  font-family: var(--font-main);
-  height: 400px;
-  width: 820px;
- }
+.container {
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+}
 
- .container {
+.izquierda {
+  display: block;
+  width: 160%;
+  margin: 15px;
+  padding-right: 20px;
   overflow: hidden;
-  margin: 0 auto;
-  max-width: 1500px;
-  height: 400px;
-  width: 750px;
-  padding: 10px 0;
- }
-
- .img {
-  padding: 2% 5%;
-  max-width: 655px;
-  height: 500px;
- }
-
- .columna1 {
-  width: 20%;
-  float: left;
-  margin-left: 75px;
- }
-
- .colum2 {
-  width: 45%;
-  float: left;
-  margin-left: 180px;
- }
-
- h1{
-  color: rgb(56, 23, 88);
-  text-align: center;
+  height: 67vh;
 }
 
-.boton {
-  border: 0;
-  margin-top: 25px;
-  background-color: var(--Soft-red);
-  height: 40px;
-  width: 200px;
-  margin: 0 8px 16px;
-  font-family: 'Poppings', 'sans-serif';
+.izquierda img {
+  width: 100%;
+  height: 60%;
 }
 
+.conta {
+  display: block;
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+}
+
+.contabajo {
+  display: flex;
+  overflow: hidden;
+}
+.conta1 {
+  display: block;
+  width: 40%;
+  height: 60%;
+  margin-right: 40px;
+  margin-top: 5px;
+}
+
+.texto_derecha p {
+  color: gray;
+}
+.conta1 span{
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.conta2 {
+  width: 50%;
+  height: 40%;
+}
+
+.texto_derecha h3:hover {
+  color: goldenrod;
+}
+.conta2 span{
+  font-size: 17px;
+  color: grey;
+}
+
+.conta2 button {
+  color: white;
+  background: red;
+  padding: 10px 10px;
+  margin-top: 40px;
+  width: 50%;
+  letter-spacing: 5px;
+}
+
+.conta2 button:hover {
+  background: black;
+}
+
+.derecha {
+  display: block;
+  width: 90%;
+  background-color: rgb(6, 5, 15);
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.contenido_derecha {
+  margin: 20px;
+  color: white;
+  margin-top: 30px;
+}
+
+.contenido_derecha span{
+  color: goldenrod;
+  font-size: 40px;
+}
+
+.texto_derecha h3 {
+  color: white;
+}
+
+.texto_derecha {
+margin-bottom: 20px;
+margin-top: 20px;
+}
 

@@ -1,13 +1,63 @@
 @use '../../app.component.scss';
 
 .contenedorfoto {
-  float:left;
-  margin: 5px;
-  padding:3px;
+  display: flex;
+}
+
+.contenedorfoto img {
+  width: 20%;
+  height: 120%;
+}
+
+.contenedorfoto2 img {
+  width: 20%;
+  height: 120%;
+}
+
+.contenedorfoto3 img {
+  width: 20%;
+  height: 120%;
+}
+
+.contenedorfoto2 {
+  display: flex;
+}
+
+.contenedorfoto3 {
+  display: flex;
 }
 
 .principal {
+  display: flex;
   margin:0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.contenedortexto {
+  margin-left: 20px
+}
+.contenedortexto h1{
+  font-size: 30px;
+  color: grey;
+  margin-top: -5px;
+}
+
+.contenedortexto p{
+  font-size: 15px;
+  color: grey;
+  margin-top: 5px;
+}
+
+.contenedortexto span{
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  margin-top: 5px;
+}
+
+.contenedortexto span:hover{
+  color: red;
 }
 
 #texto{
@@ -16,6 +66,7 @@
   color: rgb(56, 23, 88);
 }
 
-.footer {
+footer {
   height: 150px;
+  display: flex;
 }

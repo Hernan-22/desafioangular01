@@ -1,9 +1,14 @@
 @use '../../app.component.scss';
 
-div {
+section {
   font-family: var(--font-main);
   font-size: 15px;
 }
+
+nav .links a:hover {
+  color: red;
+}
+
 nav {
   display: flex;
   padding: 2% 5%;
