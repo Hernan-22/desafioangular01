@@ -41,9 +41,11 @@
 
 .texto_derecha p {
   color: gray;
+  margin-top: 10px;
 }
+
 .conta1 span{
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
   line-height: 50px;
 }
@@ -57,7 +59,7 @@
   color: goldenrod;
 }
 .conta2 span{
-  font-size: 17px;
+  font-size: 20px;
   color: grey;
 }
 
@@ -65,7 +67,7 @@
   color: white;
   background: red;
   padding: 10px 10px;
-  margin-top: 40px;
+  margin-top: 30px;
   width: 50%;
   letter-spacing: 5px;
 }
@@ -76,7 +78,8 @@
 
 .derecha {
   display: block;
-  width: 90%;
+  width: 60%;
+  height: 425px;
   background-color: rgb(6, 5, 15);
   overflow: hidden;
   margin-top: 15px;

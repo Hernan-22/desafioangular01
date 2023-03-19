@@ -1,9 +1,5 @@
 @use '../../app.component.scss';
 
-.contenedorfoto {
-  display: flex;
-}
-
 .contenedorfoto img {
   width: 20%;
   height: 120%;
@@ -19,6 +15,10 @@
   height: 120%;
 }
 
+.contenedorfoto {
+  display: flex;
+}
+
 .contenedorfoto2 {
   display: flex;
 }
@@ -32,13 +32,15 @@
   margin:0 auto;
   margin-top: 50px;
   margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: auto;
 }
 
 .contenedortexto {
   margin-left: 20px
 }
 .contenedortexto h1{
-  font-size: 30px;
+  font-size: 25px;
   color: grey;
   margin-top: -5px;
 }
