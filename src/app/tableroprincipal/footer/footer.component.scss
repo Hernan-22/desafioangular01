@@ -1,43 +1,59 @@
 @use '../../app.component.scss';
 
 .contenedorfoto img {
-  width: 20%;
-  height: 120%;
+  margin-left: -80px;
+  width: 30%;
+  height: 100%;
 }
 
 .contenedorfoto2 img {
-  width: 20%;
-  height: 120%;
+  margin-left: 18px;
+  width: 30%;
+  height: 100%;
 }
 
 .contenedorfoto3 img {
-  width: 20%;
-  height: 120%;
+  width: 30%;
+  height: 100%;
 }
 
 .contenedorfoto {
   display: flex;
+  width: 260px;
 }
 
 .contenedorfoto2 {
   display: flex;
+  width: 260px;
 }
 
 .contenedorfoto3 {
   display: flex;
+  margin-left: 230px;
+  justify-content: center;
+  width: 260px;
+
 }
 
 .principal {
   display: flex;
   margin:0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 30px;
   margin-left: 8%;
   margin-right: auto;
 }
 
 .contenedortexto {
-  margin-left: 20px
+  margin-left: 20px;
+}
+
+.contenedortexto2 {
+  margin-left: 20px;
+}
+
+.contenedortexto3 {
+  margin-left: 20px;
 }
 .contenedortexto h1{
   font-size: 25px;
@@ -46,6 +62,30 @@
 }
 
 .contenedortexto p{
+  font-size: 15px;
+  color: grey;
+  margin-top: 5px;
+}
+
+.contenedortexto2 h1{
+  font-size: 25px;
+  color: grey;
+  margin-top: -5px;
+}
+
+.contenedortexto2 p{
+  font-size: 15px;
+  color: grey;
+  margin-top: 5px;
+}
+
+.contenedortexto3 h1{
+  font-size: 25px;
+  color: grey;
+  margin-top: -5px;
+}
+
+.contenedortexto3 p{
   font-size: 15px;
   color: grey;
   margin-top: 5px;
@@ -69,6 +109,10 @@
 }
 
 footer {
-  height: 150px;
-  display: flex;
+  max-width: 186.4vh;
+    position: relative;
+    background-color: aqua;
+    display: flex;
+    padding-top: 10px;
+    left: 105px;
 }
